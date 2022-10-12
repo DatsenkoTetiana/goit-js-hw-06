@@ -9,14 +9,3 @@ Array.prototype.forEach.call(items, (element) => {
     const itemsLength = element.querySelectorAll(`li`).length;
     console.log(`Category: ${title} / Elements: ${itemsLength}`);
 });
-// second task
-const ingredients = [
-  "Potatoes",
-  "Mushrooms",
-  "Garlic",
-  "Tomatos",
-  "Herbs",
-  "Condiments",
-];
-
-console.log(ingredients)
