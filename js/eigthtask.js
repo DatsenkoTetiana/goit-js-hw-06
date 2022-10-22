@@ -20,6 +20,6 @@ function handleSubmit(event) {
   console.log(`email: ${email.value}, Password: ${password.value}`);
   event.currentTarget.reset();
 }
-function multiply(...form) {
-    console.log(form)
-}
+// function multiply(...form) {
+//     console.log(form)
+// }
