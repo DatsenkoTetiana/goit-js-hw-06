@@ -5,17 +5,17 @@ const button = {
   span: document.querySelector("#value"),
 };
 
-let counterValue = 0;
+let value = 0;
 const increment = () => {
-  counterValue += 1;
+  value += 1;
 
- button.span.textContent = counterValue;
+ button.span.textContent = value;
 };
 
 const decrement = () => {
-  counterValue -= 1;
+  value -= 1;
 
-  button.span.textContent = counterValue;
+  button.span.textContent = value;
 };
 
 button.sub.addEventListener("click", increment);
