@@ -14,7 +14,7 @@ const images = [
     alt: "Group of Horses Running",
   },
 ];
-const list = document.querySelector(`.gallery`)
+const list = document.querySelector(`.gallery`);
 const createGalleryItem = ({ url, alt }) =>
   `<li><img src="${url}" alt="${alt}" width = 200 height = 150></li>`;
 const galleryMarkup = images.reduce(
@@ -23,5 +23,8 @@ const galleryMarkup = images.reduce(
 );
 const galleryList = document.querySelector(".gallery");
 galleryList.insertAdjacentHTML("afterbegin", galleryMarkup);
-galleryList.setAttribute("style", "list-style-type:none; display: flex; justify-content: space-between;");
-console.log(galleryList)
+galleryList.setAttribute(
+  "style",
+  "list-style-type:none; display: flex; justify-content: center; gap: 50px;"
+);
+console.log(galleryList);

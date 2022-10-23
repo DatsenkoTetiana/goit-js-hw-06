@@ -10,11 +10,15 @@ const ingredients = [
   "Condiments",
 ];
 for (let ingredient of ingredients) {
-    let item = document.createElement(`li`);
-    item.innerHTML = ingredient;
-    fr.append(item);
-    item.classList.add(`item`)
+  let item = document.createElement(`li`);
+  item.innerHTML = ingredient;
+  fr.append(item);
+  item.classList.add(`item`);
 }
 let list = document.querySelector(`#ingredients`);
 list.append(fr);
-console.log(list)
+list.setAttribute(
+  "style",
+  "list-style-type:none; text-align:center; margin:0 auto; background-color: yellow; width:300px;"
+);
+console.log(list);
