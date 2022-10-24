@@ -1,5 +1,4 @@
 `use strict`;
-// first task
 const menuItemsByTagNumber = categories.querySelectorAll(`.item`);
 console.log(`Number of categories: ${menuItemsByTagNumber.length}`);
 

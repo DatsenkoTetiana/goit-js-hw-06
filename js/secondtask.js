@@ -17,8 +17,5 @@ for (let ingredient of ingredients) {
 }
 let list = document.querySelector(`#ingredients`);
 list.append(fr);
-list.setAttribute(
-  "style",
-  "list-style-type:none; text-align:center; margin:0 auto; background-color: yellow; width:300px;"
-);
+
 console.log(list);
