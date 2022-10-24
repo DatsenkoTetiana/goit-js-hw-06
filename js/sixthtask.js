@@ -16,6 +16,7 @@ const validPassword = (e) => {
 };
 
 inputVal.addEventListener("blur", validPassword);
+// коли класси присутні в css
 // const inputVal = document.getElementById("validation-input");
 // const totalLenght = inputVal.getAttribute("data-length");
 // const intTotallenght = parseInt(totalLenght, 10);
@@ -35,3 +36,4 @@ inputVal.addEventListener("blur", validPassword);
 // document
 //   .getElementById("validation-input")
 //   .setAttribute("style", " height: 50px;");
+
